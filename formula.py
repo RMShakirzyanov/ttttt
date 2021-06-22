@@ -12,7 +12,7 @@ for i in range(n):
     except OverflowError:
         print("Большое число")
     except ZeroDivisionError:
-        print("0000000000000!!!!!!!!!!!!!!!")
+        print("0000!!!!!!!!!!!")
     else:
         print("Всё путём!")
     finally:
