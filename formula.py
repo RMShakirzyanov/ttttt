@@ -8,7 +8,7 @@ y = 0
 for i in range(n):
     # y += ((-1) ** i * x ** (2 * i)) / math.factorial(2 * i)
     try:
-        y += ((-1) ** i * x ** (2 * i)) / (factorial(2 * i) * 0)
+        y += ((-1) ** i * x ** (2 * i)) / factorial(2 * i)
     except OverflowError:
         print("Большое число")
     except ZeroDivisionError:
