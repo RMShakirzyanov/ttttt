@@ -1,0 +1,5 @@
+R1 = float(input())
+R2 = float(input())
+print('S1 =', 3.14 * R1 ** 2)
+print('S2 =', 3.14 * R2 ** 2)
+print('S3 =', 3.14 * (R1 ** 2 - R2 ** 2))
